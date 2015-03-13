@@ -1,0 +1,24 @@
+imports:
+    # Conf Tiers Bundles
+    - { resource: bundles/stof_doctrine_extensions.yml }
+    - { resource: bundles/faker.yml }
+
+    # Sonata Core Bundles
+    - { resource: sonata/sonata_block.yml }
+    - { resource: sonata/sonata_cache.yml }
+    - { resource: sonata/sonata_formatter.yml }
+    - { resource: sonata/sonata_intl.yml }
+    - { resource: sonata/sonata_core.yml }
+
+    # Sonata Feature Bundles
+    - { resource: sonata/sonata_admin.yml }
+    - { resource: sonata/sonata_doctrine_orm.yml }
+    - { resource: sonata/sonata_page.yml }
+    - { resource: sonata/sonata_user.yml }
+    - { resource: sonata/sonata_notification.yml }
+
+    # CKEditor config
+    - { resource: bundles/ivory_ckeditor.yml }
+
+    # Override Vendors Parameters
+    - { resource: bundles/override.yml }

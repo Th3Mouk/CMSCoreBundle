@@ -1,0 +1,7 @@
+sonata_intl:
+    locale: ~
+    timezone:
+        default: Europe/Paris
+        detectors:
+            - sonata.intl.timezone_detector.user    # default value if SonataUserBundle is available
+            - sonata.intl.timezone_detector.locale  # default value

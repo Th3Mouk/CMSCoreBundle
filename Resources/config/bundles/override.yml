@@ -1,0 +1,9 @@
+parameters:
+    #Surcharge PageAdmin
+    sonata.page.admin.page.class: Th3Mouk\CMSPageBundle\Admin\PageAdmin
+    #Surcharge PageManager
+    sonata.page.manager.page.class: Th3Mouk\CMSPageBundle\Entity\PageManager
+    #Surcharge Transformer car sinon les attributs additionnel non serialisés
+    sonata.page.transformer.class: Th3Mouk\CMSPageBundle\Entity\Transformer
+    #Surcharge PageAdminController
+    sonata.page.admin.page.controller: Th3MoukCMSPageBundle:PageAdmin

@@ -1,0 +1,42 @@
+sonata_user:
+    security_acl: false
+
+    manager_type: orm # can be orm or mongodb
+
+    table:
+        user_group: "users__user_group"
+
+    impersonating:
+        route:                page_slug
+        parameters:           { path: / }
+
+    class:
+        user:         Application\Sonata\UserBundle\Entity\User
+        group:        Application\Sonata\UserBundle\Entity\Group
+
+    admin:
+        group:
+           class:     Application\Sonata\UserBundle\Admin\GroupAdmin
+
+    profile:
+        default_avatar: 'bundles/sonatauser/default_avatar.png' # Default avatar displayed if user doesn't have one
+#        Profile Form (firstname, lastname, etc ...)
+#        form:
+#            type:               sonata_user_profile
+#            handler:            sonata.user.profile.form.handler.default
+#            name:               sonata_user_profile_form
+#            validation_groups:  [Profile]
+#        menu: [{route: sonata_user_profile_edit,label: link_edit_profile,domain: SonataUserBundle,route_parameters: []}]
+
+
+fos_user:
+    db_driver:      orm # can be orm or odm
+    firewall_name:  main
+    user_class:     Application\Sonata\UserBundle\Entity\User
+
+    group:
+        group_class:   Application\Sonata\UserBundle\Entity\Group
+        group_manager: sonata.user.orm.group_manager                    # If you're using doctrine orm
+
+    service:
+        user_manager: sonata.user.orm.user_manager
