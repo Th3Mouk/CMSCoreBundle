@@ -39,6 +39,8 @@
 
     "th3mouk/cms-page-bundle": "~1.0.0"
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require-dev": {
   },
   "autoload": {
