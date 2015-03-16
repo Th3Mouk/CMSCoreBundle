@@ -37,7 +37,7 @@
     "doctrine/doctrine-fixtures-bundle": "~2.2",
     "willdurand/faker-bundle": "~1.2",
 
-    "th3mouk/cms-page-bundle": "~1.0.0"
+    "th3mouk/cms-page-bundle": "~1.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
