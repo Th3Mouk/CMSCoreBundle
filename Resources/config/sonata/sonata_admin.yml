@@ -24,15 +24,12 @@ sonata_admin:
 
     assets:
         stylesheets:
-            - bundles/sonataformatter/markitup/skins/sonata/style.css
-            - bundles/sonataformatter/markitup/sets/markdown/style.css
-            - bundles/sonataformatter/markitup/sets/html/style.css
-            - bundles/sonataformatter/markitup/sets/textile/style.css
             - bundles/sonataadmin/vendor/bootstrap/dist/css/bootstrap.min.css
             - bundles/sonataadmin/vendor/AdminLTE/css/font-awesome.min.css
             - bundles/sonataadmin/vendor/AdminLTE/css/ionicons.min.css
             - bundles/sonataadmin/vendor/AdminLTE/css/AdminLTE.css
-            - bundles/sonataadmin/vendor/jqueryui/themes/flick/jquery-ui.min.css
+            - bundles/sonatacore/vendor/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css
+            - bundles/sonataadmin/vendor/jqueryui/themes/base/jquery-ui.css
             - bundles/sonataadmin/vendor/select2/select2.css
             - bundles/sonataadmin/vendor/select2/select2-bootstrap.css
             - bundles/sonataadmin/vendor/x-editable/dist/bootstrap3-editable/css/bootstrap-editable.css
@@ -41,7 +38,7 @@ sonata_admin:
 
             #Sonata Page
             - bundles/sonataadmin/vendor/jqueryui/themes/flick/jquery-ui.min.css
-#            - bundles/sonatapage/sonata-page.back.css
+            - bundles/sonatapage/sonata-page.back.min.css
 
         javascripts:
             - bundles/sonataadmin/vendor/jquery/dist/jquery.min.js
@@ -59,4 +56,4 @@ sonata_admin:
             - bundles/sonataadmin/Admin.js
 
             #Sonata Page
-#            - bundles/sonatapage/sonata-page.back.js
+            - bundles/sonatapage/sonata-page.back.min.js
