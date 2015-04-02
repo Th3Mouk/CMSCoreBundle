@@ -18,6 +18,8 @@ sonata_block:
         sonata.block.service.menu:
         sonata.block.service.template:
 
+        cms.block.contenu.ckeditor:
+
         # PageBundle's Blocks
         sonata.page.block.container:
             # cache: sonata.cache.memcached
