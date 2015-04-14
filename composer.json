@@ -35,6 +35,8 @@
     "doctrine/doctrine-fixtures-bundle": "~2.2",
     "willdurand/faker-bundle": "~1.2",
 
+    "id4v/menu-bundle": "~1.1",
+
     "th3mouk/cms-page-bundle": "~1.0"
   },
   "minimum-stability": "dev",
