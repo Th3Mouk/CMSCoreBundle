@@ -25,7 +25,7 @@ sonata_admin:
     assets:
         stylesheets:
             - bundles/sonataadmin/vendor/bootstrap/dist/css/bootstrap.min.css
-            - bundles/sonataadmin/vendor/AdminLTE/css/font-awesome.min.css
+            - /css/font-awesome.min.css
             - bundles/sonataadmin/vendor/AdminLTE/css/ionicons.min.css
             - bundles/sonataadmin/vendor/AdminLTE/css/AdminLTE.css
             - bundles/sonatacore/vendor/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css
