@@ -27,8 +27,6 @@
     "sonata-project/intl-bundle": "~2.2",
     "sonata-project/media-bundle": "~2.3",
 
-    "sonata-project/formatter-bundle": "~2.3",
-
     "liip/imagine-bundle": "~1.0",
     "stof/doctrine-extensions-bundle": "~1.1",
 
@@ -37,7 +35,9 @@
 
     "id4v/menu-bundle": "~1.1",
 
-    "th3mouk/cms-page-bundle": "~1.0"
+    "th3mouk/cms-page-bundle": "~1.0",
+
+    "egeloen/ckeditor-bundle": "~2.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
