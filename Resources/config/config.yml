@@ -17,8 +17,5 @@ imports:
     - { resource: sonata/sonata_user.yml }
     - { resource: sonata/sonata_notification.yml }
 
-    # CKEditor config
-    - { resource: bundles/ivory_ckeditor.yml }
-
     # Override Vendors Parameters
     - { resource: bundles/override.yml }
