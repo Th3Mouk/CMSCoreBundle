@@ -1,0 +1,21 @@
+UPGRADE 1.1
+===============
+
+## 1.1.0
+
+### __Bundles__
+
+Full integration of [KnpMenuBundle](https://github.com/KnpLabs/KnpMenuBundle)
+
+BC Break with the old menu running
+
+Replace the twig extension:
+```twig
+{{ render_menu("menu-principal", {template: "AppBundle:Menu:menu_mobile.html.twig"}) }}
+```
+By :
+```twig
+{{ knp_menu_render('app.vichy.menu.header', {template: "AppBundle:Menu:menu_mobile.html.twig"}) }}
+``` 
+
+The complete documentation to create a menu is available here: [KnpMenuBundle doc](http://symfony.com/doc/master/bundles/KnpMenuBundle/index.html), and here [Id4vMenuBundle](https://github.com/Id4v/MenuBundle)

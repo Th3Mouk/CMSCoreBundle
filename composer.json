@@ -33,9 +33,9 @@
     "doctrine/doctrine-fixtures-bundle": "~2.2",
     "willdurand/faker-bundle": "~1.2",
 
-    "id4v/menu-bundle": "~1.1",
+    "id4v/menu-bundle": "~2.0",
 
-    "th3mouk/cms-page-bundle": "~1.0",
+    "th3mouk/cms-page-bundle": "~1.1",
 
     "egeloen/ckeditor-bundle": "~2.0"
   },
@@ -49,7 +49,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "1.0-dev"
+      "dev-master": "1.1-dev"
     }
   }
 }
