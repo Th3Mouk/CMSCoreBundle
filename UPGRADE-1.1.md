@@ -3,7 +3,7 @@ UPGRADE 1.1
 
 ## 1.1.0
 
-### __Bundles__
+### __Id4vMenuBundle 2.0.0__
 
 Full integration of [KnpMenuBundle](https://github.com/KnpLabs/KnpMenuBundle)
 
