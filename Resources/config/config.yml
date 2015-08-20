@@ -2,6 +2,7 @@ imports:
     # Conf Tiers Bundles
     - { resource: bundles/stof_doctrine_extensions.yml }
     - { resource: bundles/faker.yml }
+    - { resource: bundles/uploads.yml }
 
     # Sonata Core Bundles
     - { resource: sonata/sonata_block.yml }
