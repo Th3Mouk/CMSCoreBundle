@@ -1,5 +1,9 @@
 {% extends 'SonataAdminBundle::standard_layout.html.twig' %}
 
+{% block side_bar_after_nav %}
+    <p class="text-center small" style="border-top: 1px solid #444444; padding-top: 10px"><a href="https://github.com/Th3Mouk/CMSStarter" rel="noreferrer" target="_blank">v{{ cms_version }}</a></p>
+{% endblock %}
+
 {#To delete at the release of Sonata Admin 2.4#}
 {% block sonata_page_content_nav %}
     {% if _tab_menu is not empty or _actions is not empty %}

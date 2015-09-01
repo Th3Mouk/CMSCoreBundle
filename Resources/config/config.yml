@@ -20,3 +20,11 @@ imports:
 
     # Override Vendors Parameters
     - { resource: bundles/override.yml }
+
+
+parameters:
+    cms_version: 1.1.4
+
+twig:
+    globals:
+        cms_version: %cms_version%
