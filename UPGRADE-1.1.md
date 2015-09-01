@@ -26,3 +26,12 @@ The complete documentation to create a menu is available here: [KnpMenuBundle do
 
 Dependencies was re-added due to controllers and routing usefull for the link between Ckeditor and SonataMedia.
 [CoopTilleulsCKEditorSonataMediaBundle](https://github.com/coopTilleuls/CoopTilleulsCKEditorSonataMediaBundle) can't remplace it because he extends SonataMediaBundle, and we can't easy extends entities.
+
+## 1.1.2
+
+### __VichUploaderBundle__
+Add by default uploader bundle
+
+## 1.1.3
+
+Add Th3MoukCMSCoreBundle::sonata_layout.html.twig to extend sonata layout
