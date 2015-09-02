@@ -5,7 +5,7 @@ sonata_doctrine_orm_admin:
     templates:
         form:
             - SonataDoctrineORMAdminBundle:Form:form_admin_fields.html.twig
-            - SonataDoctrineORMAdminBundle:Form:mod_admin_fields.html.twig
+            - Th3MoukCMSCoreBundle:SonataDoctrineORMAdminBundle/Form:mod_admin_fields.html.twig
             - SonataCoreBundle:Form:datepicker.html.twig
         filter:
             - SonataDoctrineORMAdminBundle:Form:filter_admin_fields.html.twig
