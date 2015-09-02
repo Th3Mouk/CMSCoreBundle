@@ -23,7 +23,7 @@ imports:
 
 
 parameters:
-    cms_version: 1.1.4
+    cms_version: 1.1.5
 
 twig:
     globals:
