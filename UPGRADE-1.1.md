@@ -35,3 +35,18 @@ Add by default uploader bundle
 ## 1.1.3
 
 Add Th3MoukCMSCoreBundle::sonata_layout.html.twig to extend sonata layout
+
+## 1.1.4
+
+Extract layout of sonata to Core Bundle (Th3MoukCMSCoreBundle::sonata_layout.html.twig)
+
+## 1.1.5
+
+Clean of files in app/Resources
+
+Sonata layout extend `extend_layout.html.twig` is now deletable in same time of :
+```
+sonata_admin:
+    templates:
+        layout:  SonataAdminBundle::extend_layout.html.twig
+```
