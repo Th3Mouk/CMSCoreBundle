@@ -1,10 +1,14 @@
 imports:
+    # Conf Whole Setup
+    - { resource: config_framework.yml }
+
     # Conf Tiers Bundles
     - { resource: bundles/stof_doctrine_extensions.yml }
     - { resource: bundles/faker.yml }
     - { resource: bundles/uploads.yml }
 
     # Sonata Core Bundles
+    - { resource: sonata/sonata_admin.yml }
     - { resource: sonata/sonata_block.yml }
     - { resource: sonata/sonata_cache.yml }
     - { resource: sonata/sonata_formatter.yml }
@@ -12,7 +16,6 @@ imports:
     - { resource: sonata/sonata_core.yml }
 
     # Sonata Feature Bundles
-    - { resource: sonata/sonata_admin.yml }
     - { resource: sonata/sonata_doctrine_orm.yml }
     - { resource: sonata/sonata_page.yml }
     - { resource: sonata/sonata_user.yml }
@@ -20,11 +23,3 @@ imports:
 
     # Override Vendors Parameters
     - { resource: bundles/override.yml }
-
-
-parameters:
-    cms_version: 1.1.5
-
-twig:
-    globals:
-        cms_version: %cms_version%

@@ -1,0 +1,9 @@
+imports:
+    # Sonata Core Bundles
+    - { resource: fast_install/sonata_block.yml }
+    - { resource: fast_install/sonata_seo.yml }
+
+    # Sonata Feature Bundles
+    - { resource: fast_install/sonata_admin.yml }
+    - { resource: fast_install/sonata_page.yml }
+    - { resource: fast_install/sonata_media.yml }
