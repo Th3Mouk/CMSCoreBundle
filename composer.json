@@ -3,7 +3,7 @@
   "type": "symfony-bundle",
   "description": "Symfony CMSCoreBundle extends of Sonata Project",
   "keywords": [
-    "sonata", "cms", "core"
+    "sonata", "cms", "core", "symfony", "bundle"
   ],
   "license": "MIT",
   "authors": [
