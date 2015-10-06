@@ -39,9 +39,7 @@
 
     "id4v/menu-bundle": "~2.0",
 
-    "th3mouk/cms-page-bundle": "~1.1",
-
-    "egeloen/ckeditor-bundle": "~2.0"
+    "th3mouk/cms-page-bundle": "~1.1"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
