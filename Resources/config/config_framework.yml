@@ -8,6 +8,7 @@ twig:
             - 'VichUploaderBundle:Form:fields.html.twig'
     form:
         resources:
+            - 'SonataCoreBundle:Form:datepicker.html.twig'
             - 'bootstrap_3_layout.html.twig'
 
     exception_controller: 'FOS\RestBundle\Controller\ExceptionController::showAction'
