@@ -29,3 +29,9 @@ The starter project will continue to present all the files ready to use for a fa
 This version concern to all symfony framework modification like Twig etc ...
 
 To understand the working of configuration and avoid error during personnalisation i advise to read the `Resources/config` folder
+
+## 1.2.2
+
+Add default format integration of [VichUploaderBundle](https://github.com/dustin10/VichUploaderBundle) thumbnail in admin, add `web/bundles/th3moukcmscore/css/sonata.vich-uploader.css` in your project.
+
+Add sonata datepicker form widget in `app/config/config_framework.yml`
