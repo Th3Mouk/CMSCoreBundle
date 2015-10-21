@@ -4,8 +4,10 @@ parameters:
 twig:
     globals:
         cms_version: %cms_version%
+
     form_themes:
-            - 'VichUploaderBundle:Form:fields.html.twig'
+        - 'VichUploaderBundle:Form:fields.html.twig'
+
     form:
         resources:
             - 'SonataCoreBundle:Form:datepicker.html.twig'
