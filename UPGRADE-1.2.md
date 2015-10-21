@@ -35,3 +35,7 @@ To understand the working of configuration and avoid error during personnalisati
 Add default format integration of [VichUploaderBundle](https://github.com/dustin10/VichUploaderBundle) thumbnail in admin, add `web/bundles/th3moukcmscore/css/sonata.vich-uploader.css` in your project.
 
 Add sonata datepicker form widget in `app/config/config_framework.yml`
+
+## 1.2.3
+
+Fix the configuration of `sonata.user.block.*` blocks.

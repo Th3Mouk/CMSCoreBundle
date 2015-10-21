@@ -36,13 +36,11 @@ sonata_block:
 
         # UserBundle's Blocks
         sonata.user.block.account:
-            cache: sonata.page.cache.js_async
-            #cache: sonata.page.cache.esi
             contexts: [user]
         sonata.user.block.menu:
             contexts: [user]
 
         # Formatter
-#        sonata.formatter.block.formatter:
+        sonata.formatter.block.formatter:
 
 #        sonata.seo.block.breadcrumb.homepage:
