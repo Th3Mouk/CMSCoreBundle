@@ -1,5 +1,5 @@
 parameters:
-    cms_version: 1.2.3
+    cms_version: 1.2.4
 
 twig:
     globals:
