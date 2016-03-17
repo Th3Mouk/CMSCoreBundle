@@ -14,7 +14,9 @@ The documentation is available [here](/Resources/doc/installation.md).
 You can include the CMS in your project, very fast, without breaking existing.
 
 If you're starting a new project, you can do it even faster with the command :
-`composer create-project th3mouk/cms-starter`
+```sh
+composer create-project th3mouk/cms-starter
+```
 
 This command will install Symfony 2.8 with this bundle pre-installed, and some other tools.
 (Grunt, bower, LESS support, minimification)

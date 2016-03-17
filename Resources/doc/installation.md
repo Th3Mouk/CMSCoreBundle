@@ -7,7 +7,7 @@ The installation is fast as thunder, follow my STEPS !
 
 Add in your `parameters.yml.dist`
 
-```
+```yaml
 title_project:     CMS Starter
 logo_project:      bundles/sonataadmin/logo_title.png
 
@@ -26,7 +26,7 @@ When composer is over, follow carefully configurations part of your application.
 
 Add in your `config.yml`
 
-```
+```yaml
 # Sonata CMS Include Default Conf
 - { resource: @Th3MoukCMSCoreBundle/Resources/config/config.yml }
 - { resource: @Th3MoukCMSCoreBundle/Resources/config/bundles/ivory_ckeditor.yml }
@@ -37,7 +37,7 @@ Add in your `config.yml`
 
 Activate all new bundles :
 
-```
+```php
 // Sonata Core
 new Sonata\CoreBundle\SonataCoreBundle(),
 new Sonata\AdminBundle\SonataAdminBundle(),
@@ -103,7 +103,7 @@ If u don't know the utility of each of them I advise to read the corresponding d
 
 Modify `routing.yml` add this at the end of the file
 
-```
+```yaml
 th3_mouk_cms_page:
     resource: "@Th3MoukCMSPageBundle/Resources/config/routing.yml"
     prefix:   /
@@ -177,7 +177,7 @@ sonata_admin:
 This is an example of the basic configuration, ADAPT IT ON YOUR N£€D !
 
 `security.yml`
-```
+```yaml
 # you can read more about security in the related section of the documentation
 # http://symfony.com/doc/current/book/security.html
 security:
@@ -269,7 +269,7 @@ The aim is to provide the application entities that will be used to operate the 
 We can access more details [here](https://sonata-project.org/bundles/easy-extends/master/doc/reference/introduction.html).
 
 Launch this set of commands : 
-```
+```sh
 app/console sonata:easy-extends:generate SonataBlockBundle --dest=src
 app/console sonata:easy-extends:generate SonataMediaBundle --dest=src
 app/console sonata:easy-extends:generate SonataNotificationBundle --dest=src
