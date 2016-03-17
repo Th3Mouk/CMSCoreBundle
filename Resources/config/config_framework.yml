@@ -1,5 +1,5 @@
 parameters:
-    cms_version: 1.2.5
+    cms_version: 2.0.0-beta1
 
 twig:
     globals:
@@ -13,7 +13,6 @@ twig:
             - 'SonataCoreBundle:Form:datepicker.html.twig'
             - 'bootstrap_3_layout.html.twig'
 
-    exception_controller: 'FOS\RestBundle\Controller\ExceptionController::showAction'
     base_template_class: Sonata\CacheBundle\Twig\TwigTemplate14
 
 doctrine:

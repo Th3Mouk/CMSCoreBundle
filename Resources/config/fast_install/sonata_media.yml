@@ -29,7 +29,7 @@ sonata_media:
     pixlr:
         enabled:  false
         secret:   %pixlr_secret%
-        referrer: CMS Starter
+        referrer: %title_project%
     providers:
         image:
             thumbnail:  sonata.media.thumbnail.consumer.format

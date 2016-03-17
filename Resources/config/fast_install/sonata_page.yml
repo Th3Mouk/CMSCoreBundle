@@ -27,7 +27,7 @@ sonata_page:
     templates:
         default:
             path: 'SonataPageBundle::layout.html.twig'
-            name: 'CMS Starter'
+            name: %title_project%
             containers:
                 content_top:
                     name: Contenu supérieur

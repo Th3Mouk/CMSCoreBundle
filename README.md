@@ -9,14 +9,17 @@ This bundle aims to simplify the use of Sonata CMS for developers and future use
 
 ## Installation
 
-The documentation is available [here](/Resources/doc/installation.md), the new version (1.2) aim to be standalonable.
+The documentation is available [here](/Resources/doc/installation.md).
 
-The inclusion is very fast on project has already be started.
+You can include the CMS in your project, very fast, without breaking existing.
 
 If you're starting a new project, you can do it even faster with the command :
-`php composer.phar create-project th3mouk/cms-starter`
+`composer create-project th3mouk/cms-starter`
 
-## [CMS Starter](https://github.com/Th3Mouk/CMSStarter)
+This command will install Symfony 2.8 with this bundle pre-installed, and some other tools.
+(Grunt, bower, LESS support, minimification)
+
+Read all relative informations on CMS Starter [here](https://github.com/Th3Mouk/CMSStarter)
 
 ## Please
 

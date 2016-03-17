@@ -18,7 +18,7 @@ Name your title project and if you have a logo for your admin checkout the path.
 
 ## Composer 
 
-`php composer.phar require th3mouk/cms-core-bundle ^1.2.0`
+`composer require th3mouk/cms-core-bundle ^2.0`
 
 ## Config
 
@@ -35,7 +35,7 @@ Add in your `config.yml`
 
 ## AppKernel
 
-Add all of them :
+Activate all new bundles :
 
 ```
 // Sonata Core
@@ -75,6 +75,8 @@ new Sonata\MediaBundle\SonataMediaBundle(),
 new Application\Sonata\MediaBundle\ApplicationSonataMediaBundle(),
 new JMS\SerializerBundle\JMSSerializerBundle(),
 new Liip\ImagineBundle\LiipImagineBundle(),
+new Sonata\ClassificationBundle\SonataClassificationBundle(),
+new Application\Sonata\ClassificationBundle\ApplicationSonataClassificationBundle(),
 
 // Fixtures
 new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
@@ -84,11 +86,7 @@ new Bazinga\Bundle\FakerBundle\BazingaFakerBundle(),
 new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
 
 // Uploads
-new \Vich\UploaderBundle\VichUploaderBundle(),
-
-// API
-new FOS\RestBundle\FOSRestBundle(),
-new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
+new Vich\UploaderBundle\VichUploaderBundle(),
 
 // Menu
 new Id4v\Bundle\MenuBundle\Id4vMenuBundle(),
@@ -272,11 +270,12 @@ We can access more details [here](https://sonata-project.org/bundles/easy-extend
 
 Launch this set of commands : 
 ```
-php app/console sonata:easy-extends:generate SonataBlockBundle --dest=src
-php app/console sonata:easy-extends:generate SonataMediaBundle --dest=src
-php app/console sonata:easy-extends:generate SonataNotificationBundle --dest=src
-php app/console sonata:easy-extends:generate SonataUserBundle --dest=src
-php app/console sonata:easy-extends:generate Th3MoukCMSPageBundle --dest=src
+app/console sonata:easy-extends:generate SonataBlockBundle --dest=src
+app/console sonata:easy-extends:generate SonataMediaBundle --dest=src
+app/console sonata:easy-extends:generate SonataNotificationBundle --dest=src
+app/console sonata:easy-extends:generate SonataUserBundle --dest=src
+app/console sonata:easy-extends:generate SonataClassificationBundle --dest=src
+app/console sonata:easy-extends:generate Th3MoukCMSPageBundle --dest=src
 ```
 
 ## That's all folks !
