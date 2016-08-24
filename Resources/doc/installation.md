@@ -90,6 +90,7 @@ new Vich\UploaderBundle\VichUploaderBundle(),
 
 // Menu
 new Id4v\Bundle\MenuBundle\Id4vMenuBundle(),
+new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
 
 // CMS Starter
 new Th3Mouk\CMSCoreBundle\Th3MoukCMSCoreBundle(),
@@ -170,6 +171,9 @@ sonata_admin:
     resource: .
     type: sonata_admin
     prefix: /admin
+    
+fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
 ```
 
 ## Security
