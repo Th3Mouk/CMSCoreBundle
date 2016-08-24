@@ -7,11 +7,13 @@ This bundle aims to simplify the use of Sonata CMS for developers and future use
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/5e565293-add3-4ee5-a61a-ee35c00269fb/mini.png)](https://insight.sensiolabs.com/projects/5e565293-add3-4ee5-a61a-ee35c00269fb) [![Latest Stable Version](https://poser.pugx.org/th3mouk/cms-core-bundle/v/stable.svg)](https://packagist.org/packages/th3mouk/cms-core-bundle) [![Total Downloads](https://poser.pugx.org/th3mouk/cms-core-bundle/downloads.svg)](https://packagist.org/packages/th3mouk/cms-core-bundle) [![Build Status](https://travis-ci.org/Th3Mouk/CMSCoreBundle.svg?branch=master)](https://travis-ci.org/Th3Mouk/CMSCoreBundle) [![Latest Unstable Version](https://poser.pugx.org/th3mouk/cms-core-bundle/v/unstable.svg)](https://packagist.org/packages/th3mouk/cms-core-bundle) [![License](https://poser.pugx.org/th3mouk/cms-core-bundle/license.svg)](https://packagist.org/packages/th3mouk/cms-core-bundle)
 
-## Installation
+## Documentation / Bundle Installation
+
+You can include the CMS in your project, very fast, without breaking existing.
 
 The documentation is available [here](/Resources/doc/installation.md).
 
-You can include the CMS in your project, very fast, without breaking existing.
+## Install Symfony + Bundle for scratch
 
 If you're starting a new project, you can do it even faster with the command :
 ```sh
@@ -21,7 +23,7 @@ composer create-project th3mouk/cms-starter
 This command will install Symfony 2.8 with this bundle pre-installed, and some other tools.
 (Grunt, bower, LESS support, minimification)
 
-Read all relative informations on CMS Starter [here](https://github.com/Th3Mouk/CMSStarter)
+Read all relative informations on CMS Starter [here](https://github.com/Th3Mouk/CMSStarter).
 
 ## Please
 

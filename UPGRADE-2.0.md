@@ -5,7 +5,7 @@ UPGRADE 2.0
 
 ### SonataAdminBundle
 
-Now supporting the 2.4 version of the bundles
+Now supporting the 3.0 version of the bundles
 
 ### CMSPageBundle
 
