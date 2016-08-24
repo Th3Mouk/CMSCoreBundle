@@ -17,6 +17,7 @@ Add in your `AppKernel.php` :
 
 ```php
 new Sonata\ClassificationBundle\SonataClassificationBundle(),
+new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
 ```
 
 Then in your terminal launch `app/console sonata:easy-extends:generate SonataClassificationBundle --dest=src` command.
@@ -25,4 +26,11 @@ And again in the `AppKernel.php` :
 
 ```php
 new Application\Sonata\ClassificationBundle\ApplicationSonataClassificationBundle(),
+```
+
+You need to upgrade `routing.yml` too by adding :
+
+```yml
+fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
 ```
