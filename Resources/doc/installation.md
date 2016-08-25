@@ -2,6 +2,10 @@ Installation
 ============
 
 The installation is fast as thunder, follow my STEPS !
+
+## Symfony
+
+Symfony requires at least the version `2.5`.
   
 ## Parameters
 

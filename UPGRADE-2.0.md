@@ -3,6 +3,10 @@ UPGRADE 2.0
 
 ## 2.0.0
 
+### Symfony
+
+Drop the Symfony 2.3 support due to vich/uploader-bundle
+
 ### SonataAdminBundle
 
 Now supporting the 3.0 version of the bundles
