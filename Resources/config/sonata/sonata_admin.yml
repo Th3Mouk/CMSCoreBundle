@@ -38,6 +38,7 @@ sonata_admin:
             - bundles/sonataadmin/css/styles.css
             - bundles/sonataadmin/css/layout.css
             - bundles/sonataadmin/css/tree.css
+            - bundles/sonataadmin/css/colors.css
 
             #Sonata Page
             - bundles/sonataadmin/vendor/jqueryui/themes/flick/jquery-ui.min.css
